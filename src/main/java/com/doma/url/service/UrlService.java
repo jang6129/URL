@@ -1,29 +1,22 @@
-package com.doma.url.repository;
+package com.doma.url.service;
 
 import com.doma.url.entity.URL;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public interface UrlRepository {
-    // TEST
-    void setUrlList();
+public interface UrlService {
 
-    void emptyUrlList();
-
-    // API
     ArrayList<URL> findAll();
 
     URL findUrlById(long urlId);
 
     URL findUrlByUrlShorten(String urlShorten);
 
-    void insertUrl(URL url);
+    URL insertUrl(String url);
 
     void deleteUrlById(long urlId);
 
     void updateUrl(URL url);
 
-    long getIdCount();
-
-    void setIdCount(long idCount);
 }
