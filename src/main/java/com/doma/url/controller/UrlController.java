@@ -27,8 +27,9 @@ public class UrlController {
     @GetMapping("/list")
     public String list(Model model) {
         List<URL> urlList = urlService.findAll();
-        model.addAttribute("urlList", urlList);
+        if (urlList.size() == 0) return "/url/empty";
 
+        model.addAttribute("urlList", urlList);
         return "/url/list";
     }
 
