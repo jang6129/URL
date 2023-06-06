@@ -47,13 +47,14 @@ public class UrlController {
 
     @GetMapping("/access")
     public String access(@RequestParam("url") String url) {
-        if (url.length() != 6) return "/url/null";
-
         URL redirectUrl = null;
+
         try {
             redirectUrl = urlService.findUrlByUrlShorten(url);
         } catch (NullPointerException e) {
             return "/url/null";
+        } finally {
+            if (url.length() != 6) return "/url/null";
         }
 
         return "redirect:https://" + redirectUrl.getUrlOriginal();
