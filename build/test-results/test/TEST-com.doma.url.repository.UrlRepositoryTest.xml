@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.doma.url.repository.UrlRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-06T09:38:33" hostname="JINSEOui-MacBookAir.local" time="0.386">
+  <properties/>
+  <testcase name="updateUrlTest()" classname="com.doma.url.repository.UrlRepositoryTest" time="0.386"/>
+  <system-out><![CDATA[18:38:33.180 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.doma.url.repository.UrlRepositoryTest]: UrlRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:38:33.223 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.doma.url.UrlApplication for test class com.doma.url.repository.UrlRepositoryTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-06-06T18:38:33.384+09:00  INFO 45853 --- [    Test worker] c.doma.url.repository.UrlRepositoryTest  : Starting UrlRepositoryTest using Java 17.0.7 with PID 45853 (started by doma in /Users/doma/URL/URL)
+2023-06-06T18:38:33.385+09:00  INFO 45853 --- [    Test worker] c.doma.url.repository.UrlRepositoryTest  : No active profile set, falling back to 1 default profile: "default"
+2023-06-06T18:38:33.803+09:00  INFO 45853 --- [    Test worker] c.doma.url.repository.UrlRepositoryTest  : Started UrlRepositoryTest in 0.514 seconds (process running for 0.982)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
